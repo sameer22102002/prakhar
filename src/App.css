@@ -1,0 +1,43 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .text-danger {
+    color: red;
+  }
+  
+  h4 {
+    margin-top: 30px;
+  }
+  
+  .viewer {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  /* Styling for the 'NO FILE IS SELECTED' message */
+  .viewer > :last-child {
+    font-style: italic;
+    color: #888;
+  }
+  
